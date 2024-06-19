@@ -12,6 +12,6 @@ void Calclation::SetB(float val)
 }
 
 void Calclation::Disp() {
-    std::cout << a << " + " << b << " = " << (a + b) << std::endl;
-    std::cout << a << " - " << b << " = " << (a - b) << std::endl;
+    std::cout << a << " + " << b << " = " << (a + b) << "\n";
+    std::cout << a << " - " << b << " = " << (a - b) << "\n";
 }
