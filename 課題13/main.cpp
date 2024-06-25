@@ -1,28 +1,30 @@
 #include "Calclation.h"
-//プロトタイプ宣言
+
+// プロトタイプ宣言
 void SetX(float a, float b);
 void SetY(float a, float b);
-//グローバル変数
-Calclation x, y;
-//メイン関数
-int main()
-{
-	//インスタンスＸの処理
-	SetX(5.0, 10.0);
-	x.Disp();
-	//インスタンスＹの処理
-	SetY(8.0, 3.0);
-	y.Disp();
+
+int main() {
+    // インスタンスXの処理
+    SetX(5.0, 10.0);
+    // インスタンスYの処理
+    SetY(8.0, 3.0);
+
+    return 0;
 }
-//インスタンスＸのアクセス関数を呼ぶ
-void SetX(float a, float b)
-{
-	x.SetA(a);
-	x.SetB(b);
+
+// インスタンスXのアクセス関数を呼ぶ
+void SetX(float a, float b) {
+    Calclation x;
+    x.SetA(a);
+    x.SetB(b);
+    x.Disp();
 }
-//インスタンスＹのアクセス関数を呼ぶ
-void SetY(float a, float b)
-{
-	y.SetA(a);
-	y.SetB(b);
+
+// インスタンスYのアクセス関数を呼ぶ
+void SetY(float a, float b) {
+    Calclation y;
+    y.SetA(a);
+    y.SetB(b);
+    y.Disp();
 }
