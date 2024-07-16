@@ -6,7 +6,3 @@ public:
     void Calc();
 };
 
-void Square::Calc()
-{
-    menseki = teihen * takasa;
-}

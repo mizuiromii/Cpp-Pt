@@ -17,6 +17,4 @@ int main()
     t.SetTakasa(5.5f);
     t.Calc();
     t.Disp();
-
-    return 0;
 }

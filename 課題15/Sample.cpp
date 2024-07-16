@@ -17,6 +17,6 @@ void SampleClass::Plus()
 
 void SampleClass::Disp()
 {
-	std::cout << "•Ï”‚Ì’l‚Í" << c << "\n";
+	std::cout << "•Ï”C‚Ì’l‚Í" << c << "\n";
 }
 

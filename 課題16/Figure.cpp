@@ -1,5 +1,5 @@
 #include "Figure.h"
-
+#include <iostream> 
 void Figure::SetTeihen(float f)
 {
     teihen = f;
@@ -12,6 +12,6 @@ void Figure::SetTakasa(float f)
 
 void Figure::Disp() 
 {
-    std::cout << "’ê•Ó: " << teihen << ", ‚‚³: " << takasa << ", –ÊÏ: " << menseki << std::endl;
+    std::cout << " –ÊÏ: " << menseki << std::endl;
 }
  

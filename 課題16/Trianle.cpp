@@ -1,4 +1,5 @@
 #include "Trianle.h"
+#include <iostream> 
 
 void Triangle::Calc()
 {
